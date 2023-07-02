@@ -307,7 +307,7 @@ T3.Application = {
         .addToLoadQueue('sounds/engine_2.wav', 'sound-engine-2')
         .addToLoadQueue('sounds/engine_3.mp3', 'sound-engine-3')
         .addToLoadQueue('sounds/alternator_whine.wav', 'sound-engine-4')
-        .addToLoadQueue('sounds/bg_menu.ogg', 'music-1');
+        .addToLoadQueue('sounds/kano.m4a', 'music-1');
     var scope = angular.element($('body')).scope();
     T3.AssetLoader.load(function () {
         scope = angular.element($('body')).scope();
